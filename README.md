@@ -1,1 +1,1 @@
-# basic-js-problems-and-solutions
+# 8 Basic JavaScript problems and solutions
