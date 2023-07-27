@@ -18,5 +18,5 @@ function secondSmallNumber(array){
     return secondSmallest;
 }
 
-const result = secondSmallNumber([1, 1, 2, 2, 2, 3, 3, 4, 5]);
+const result = secondSmallNumber([1, 1, 1, 2, 2, 2, 3, 3, 4, 5]);
 console.log(result);
