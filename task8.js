@@ -11,12 +11,12 @@ function secondSmallNumber(array){
         if(number < smallest){
             secondSmallest = smallest;
             smallest = number;
-        }else if(number < secondSmallest && number !== smallest){
+        }else if(number < secondSmallest && number > smallest){
             secondSmallest = number;
         }
     }
     return secondSmallest;
 }
 
-const result = secondSmallNumber([1, 1, 1, 2, 2, 2, 3, 3, 4, 5]);
+const result = secondSmallNumber([1, 1, 2, 2, 2, 3, 3, 4, 5]);
 console.log(result);

@@ -2,7 +2,7 @@
 
 function findTwoNumbersWithSum(array, targetNumber) {
     for (let i = 0; i < array.length; i++) {
-        for (let j = i + 1; j < array.length - 1; j++) {
+        for (let j = i + 1; j < array.length; j++) {
             if(array[i] + array[j] === targetNumber){
                 return [i, j];
             }
